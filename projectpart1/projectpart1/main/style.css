@@ -1,0 +1,73 @@
+body{
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section{
+    border: 2px dotted saddlebrown;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 0 auto;
+}
+.action{
+    padding: 5px 0px;
+    border-bottom: 1px dotted burlywood;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    overflow: hidden;
+
+
+}
+.action input{
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    background-color: black;
+}
+
+.movie-row{
+    overflow: hidden;
+    padding: 4px;
+}
+.movie-box{
+    height: 350px;
+    width: 200px;
+float: left;
+    padding: 2px;
+    margin-left: 4px;
+    border: 1px solid black;
+}
+.movie-img{
+    height: 80%;
+    overflow: hidden;
+}
+.movie-img img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.5ms;
+}
+.movie-img img:hover{
+    transform: scale(1.1);
+}
+.movie-info{
+    height: 20%;
+}
+.movie-name{
+
+    font-weight: 700;
+    color: white;
+   padding: 2px;
+}
+.watchnow{
+    font-weight: 600;
+    color: white;
+    padding: 2px;
+    background-color: black;
+    border: black;
+
+}
+

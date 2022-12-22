@@ -1,0 +1,87 @@
+body{
+    background-image: url("../img/cinemachair.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;}
+
+.film{
+position: relative;
+    width: 100%;
+    height: 200px;
+
+    top: 60px;
+    text-align: center;
+    font-size: 35px;
+    color: red;
+
+}
+
+.trailer{
+    position: relative;
+    margin-top: 30px;
+    width: 850px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px ;
+    padding: 52px;
+    border: white double ;
+    box-shadow:  10px 10px 2px white;
+    background-image: radial-gradient(white,whitesmoke);
+    margin-left: 300px;
+}
+img{
+    height: 315px;
+    margin-left:10px;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+.disp{
+    text-align: right;
+
+    padding: 30px;
+
+font-size: 30px;
+    font-weight: bold;
+}
+.disc{
+text-align: right;
+    font-size: 16px;
+font-weight: bolder}
+.discription{
+    margin-top: 30px;
+    width: 850px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px ;
+    padding: 52px;
+    border: white double ;
+    box-shadow:  10px 10px 15px ;
+    background-image: radial-gradient(white,whitesmoke);
+    margin-left: 300px;
+}
+.Reservation button{
+
+
+    width: 200px;
+    alignment: center;
+
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    align-self: center;
+    background-color: brown;
+color: black;
+    font-weight: bold;
+border: none;
+}
+.Reservation button:hover{
+    transform: scale(1.1);
+    background-color: darkred;
+}
+.Reservation{
+    margin-left: 700px;
+    padding: 10px;
+
+
+}

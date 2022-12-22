@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Cheerful;
+    src: url("./Cheerful.otf ");
+
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+div.name{
+    font-family: Cheerful;
+    font-size: x-large;
+    color: #DAA520;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+button.mybutt {
+    background-color: black;
+    color: #DAA520;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid;
+    border-color: #f9f9f9;
+    border-width: 1px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+span.sign{
+    float: left;
+    padding-top: 3px;
+}
+
+form{
+    padding: 60px;
+    position: relative;
+    margin-left: 25%;
+    width: 40%;
+
+    background-image:linear-gradient(to right,#DAA520,#ffeb99);
+}
+body{
+    background-image: url("./background.jpg");
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+

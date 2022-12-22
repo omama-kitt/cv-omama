@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="865c61b8-d6c2-45c6-b990-8b2f7e8b4bfe" name="myserver" url="http://localhost/WEB2021/cenima_project">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+      <webServer id="02ced6ab-c397-456c-bd71-38bbb7228405" name="servv" url="http://localhost/WEB2021/hw3(2)">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

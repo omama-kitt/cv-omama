@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Cheerful;
+    src: url("./Cheerful.otf ");
+
+}
+@font-face {
+    font-family: Barelang;
+    src: url("./Barelang.otf ");
+
+}
+div.back_img {
+
+    background-image: url("background.jpg");
+    min-height: 640px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+form.content {
+    position: absolute;
+   left: 35%;
+    top: 10%;
+    width: 100%;
+    height:500px;
+    max-width: 400px;
+    background-color:black;
+    color: #dddddd;
+
+}
+p.par{
+
+    border: none;
+    width: 250px;
+    height: 30px;
+    padding: 16px 0px;
+
+
+}
+
+button.btn{
+
+    top: 10px;
+    left: 20px;
+    background-color: #ff9900;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+    opacity: 0.9;
+}
+button.btn:hover {
+    opacity: 1;
+}
